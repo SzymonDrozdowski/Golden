@@ -1,6 +1,7 @@
-$font1: "Roboto", sans-serif;
+$font1: "Montserrat", sans-serif;
 $font2: "Great Vibes", cursive;
-$font3: "Playball", cursive;
+$font3: "PT Serif", serif;
+$font4: "Roboto Slab", serif;
 
 * {
   margin: 0;
@@ -92,4 +93,66 @@ body .wrapper {
 
 .splash .btn:hover {
   font-size: 21px;
+}
+
+// SERVICES
+
+.heading {
+  font-size: 40px;
+  font-family: $font1 bold;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 64px 0 0;
+  margin-bottom: 0;
+}
+
+.heading p {
+  font-size: 16px;
+  font-family: $font3;
+  color: rgb(119, 119, 119);
+  line-height: 1.2;
+  padding-top: 0;
+  margin: 0;
+}
+
+.three-assets {
+  padding: 60px;
+}
+
+.three-assets h5 {
+  font-size: 18px;
+  font-family: $font1 bold;
+  font-weight: 700;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  line-height: 4.167;
+  text-align: center;
+}
+
+.three-assets p {
+  font-size: 14px;
+  font-family: "Roboto Slab" cursive;
+  color: rgb(119, 119, 119);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.icon {
+  color: #e3bb35;
+  border: 2px solid #e3bb35;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 35px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.three-assets .asset {
+  padding: 0 25px;
 }
